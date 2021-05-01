@@ -1090,60 +1090,6 @@ body : qtjs,
 if(data.match(/farmland_speedUpAll/) == 'farmland_speedUpAll'){ 
   
 $.log(`全体加速成功 剩余次数：`+data.match(/remainingAllTimes":(\d+),/)[1])
-
- await xld1();
- await $.wait(10000);
- await sqd1();
-await $.wait(10000);
- await scd1();
-await $.wait(1000);
-  await xld2();
- await $.wait(10000);
- await sqd2();
-await $.wait(10000);
- await scd2();
-await $.wait(1000);
-  await xld3();
- await $.wait(10000);
- await sqd3();
-await $.wait(10000);
- await scd3();
-await $.wait(1000);
-  await xld4();
- await $.wait(10000);
- await sqd4();
-await $.wait(10000);
- await scd4();
-await $.wait(1000);
-  await xld5();
- await $.wait(10000);
- await sqd5();
-await $.wait(10000);
- await scd5();
-await $.wait(1000);
-  await xld6();
- await $.wait(10000);
- await sqd6();
-await $.wait(10000);
- await scd6();
-await $.wait(1000);
-  await xld7();
- await $.wait(10000);
- await sqd7();
-await $.wait(10000);
- await scd7();
-await $.wait(1000);
- await xld8();
- await $.wait(10000);
- await sqd8();
-await $.wait(10000);
- await scd8();
- await $.wait(1000);
- await xld9();
- await $.wait(10000);
- await sqd9();
-await $.wait(10000);
- await scd9();
  } else { 
  $.log(`全体加速失败或次数不够`) 
  
